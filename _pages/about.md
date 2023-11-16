@@ -21,3 +21,5 @@ social: true  # includes social icons at the bottom of the page
 I'm a PhD Candidate in the Multi-robot Systems Lab at Stanford University advised by Professor Mac Schwager. I'm funded by the National Science Foundation Graduate Research Fellowship. In my research I explore a range of topics including distributed and collaborative learning, neural implicit environmental representations (NeRFs, etc.), and real-time simultaneous localization and mapping.
 
 Outside of research I am enjoy cooking, woodworking, rock climbing, hiking, and camping. 
+
+# If you're seeing this then this website is under development! 
