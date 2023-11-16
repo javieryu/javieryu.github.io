@@ -1,84 +1,63 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{shorinwa_distributed_2023-4,
+  title = {Distributed {Optimization} {Methods} for {Multi}-{Robot} {Systems}: {Part} {I} — {A} {Tutorial}},
+  abstract = {Distributed optimization provides a framework for deriving distributed algorithms for a variety of multi-robot problems. This tutorial constitutes the ﬁrst part of a two-part series on distributed optimization applied to multi-robot problems, which seeks to advance the application of distributed optimization in robotics. In this tutorial, we demonstrate that many canonical multi-robot problems can be cast within the distributed optimization framework, such as multi-robot simultaneous localization and mapping (SLAM), multi-robot target tracking, and multi-robot task assignment problems. We identify three broad categories of distributed optimization algorithms: distributed ﬁrst-order methods, distributed sequential convex programming, and the alternating direction method of multipliers (ADMM). We describe the basic algorithmic structure of each category and provide representative algorithms within each category. We then work through a simulation case study of multiple drones collaboratively tracking a ground vehicle. We compare solutions to this problem using a number of different distributed optimization algorithms. In addition, we implement a distributed optimization algorithm in hardware on a network of Raspberry Pis communicating with XBee modules to illustrate robustness to the challenges of real-world communication networks.},
+  author = {Shorinwa, Ola and Halsted, Trevor and Yu, Javier and Schwager, Mac},
+  year = {2023},
+  note = {Under Review}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{shorinwa_distributed_2023-3,
+  title = {Distributed {Optimization} {Methods} for {Multi}-{Robot} {Systems}: {Part} {II} — {A} {Survey}},
+  abstract = {Although the field of distributed optimization is well-developed, relevant literature focused on the application of distributed optimization to multi-robot problems is limited. This survey constitutes the second part of a two-part series on distributed optimization applied to multi-robot problems. In this paper, we survey three main classes of distributed optimization algorithms—distributed first-order methods, distributed sequential convex programming methods, and alternating direction method of multipliers (ADMM) methods—focusing on fullydistributed methods that do not require coordination or computation by a central computer. We describe the fundamental structure of each category and note important variations around this structure, designed to address its associated drawbacks. Further, we provide practical implications of noteworthy assumptions made by distributed optimization algorithms, noting the classes of robotics problems suitable for these algorithms. Moreover, we identify important open research challenges in distributed optimization, specifically for robotics problem.},
+  language = {en},
+  author = {Shorinwa, Ola and Halsted, Trevor and Yu, Javier and Schwager, Mac},
+  year = {2023},
+  note = {Under Review}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@article{yu_dinno_2022,
+  title = {DiNNO: Distributed Neural Network Optimization for Multi-Robot Collaborative Learning},
+  journal = {IEEE Robotics and Automation Letters},
+  author = {Yu, Javier and Vincent, Joseph A. and Schwager, Mac},
+  month = January,
+  year = {2022},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{shorinwa_distributed_2020,
+  address = {Paris, France},
+  title = {Distributed {Multi}-{Target} {Tracking} for {Autonomous} {Vehicle} {Fleets}},
+  isbn = {978-1-72817-395-5},
+  url = {https://ieeexplore.ieee.org/document/9197241/},
+  abstract = {We present a scalable distributed target tracking algorithm based on the alternating direction method of multipliers that is well-suited for a ﬂeet of autonomous cars communicating over a vehicle-to-vehicle network. Each sensing vehicle communicates with its neighbors to execute iterations of a Kalman ﬁlter-like update such that each agent’s estimate approximates the centralized maximum a posteriori estimate without requiring the communication of measurements. We show that our method outperforms the Consensus Kalman Filter in recovering the centralized estimate given a ﬁxed communication bandwidth. We also demonstrate the algorithm in a high ﬁdelity urban driving simulator (CARLA), in which 50 autonomous cars connected on a time-varying communication network track the positions and velocities of 50 target vehicles using on-board cameras.},
+  language = {en},
+  urldate = {2021-01-05},
+  booktitle = {2020 {IEEE} {International} {Conference} on {Robotics} and {Automation} ({ICRA})},
+  publisher = {IEEE},
+  author = {Shorinwa, Ola and Yu, Javier and Halsted, Trevor and Koufos, Alex and Schwager, Mac},
+  month = may,
+  year = {2020},
+  keywords = {target\_tracking},
+  pages = {3495--3501},
+  month_numeric = {5}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{yu2023nerfbridge,
+  title={NerfBridge: Bringing Real-time, Online Neural Radiance Field Training to Robotics},
+  author={Yu, Javier and Low, Jun En and Nagami, Keiko and Schwager, Mac},
+  journal={arXiv preprint arXiv:2305.09761},
+  Month = January, 
+  year={2023}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{smith2019real,
+  title={Real-time distributed non-myopic task selection for heterogeneous robotic teams},
+  author={Smith, Andrew J and Best, Graeme and Yu, Javier and Hollinger, Geoffrey A},
+  journal={Autonomous Robots},
+  volume={43},
+  pages={789--811},
+  year={2019},
+  publisher={Springer}
 }
