@@ -1,0 +1,102 @@
+/* General */
+.atkinson-hyperlegible-regular {
+  font-family: "Atkinson Hyperlegible", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-bold {
+  font-family: "Atkinson Hyperlegible", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-regular-italic {
+  font-family: "Atkinson Hyperlegible", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.atkinson-hyperlegible-bold-italic {
+  font-family: "Atkinson Hyperlegible", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Atkinson Hyperlegible', serif;
+  font-size: 14px;
+}
+
+strong {
+  font-family: 'Atkinson Hyperlegible', Verdana, Helvetica, serif;
+  font-size: 14px;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-family: 'Atkinson Hyperlegible', Verdana, Helvetica, serif;
+  font-size: 22px;
+}
+
+.papertitle {
+  font-family: 'Atkinson Hyperlegible', Verdana, Helvetica, serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.name {
+  padding-top: 20px;
+  margin: 0;
+  font-family: 'Atkinson Hyperlegible', Verdana, Helvetica, serif;
+  font-size: 32px;
+}
+
+.one {
+  width: 192px;
+  height: 108px;
+  position: relative;
+}
+
+.two {
+  width: 192px;
+  height: 108px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+.colored-box {
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
