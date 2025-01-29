@@ -7,6 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="Javier Yu" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Javier Yu</title>
     <script src="js/scramble.js"></script>
   </head>
@@ -69,6 +80,8 @@
                       >
                       &nbsp;/&nbsp;
                       <a href="https://github.com/javieryu/">Github</a>
+                      &nbsp;/&nbsp;
+                      <a href="assets/files/javieryu_resume.pdf">Resume</a>
                     </p>
 
                     <!-- unscramble email -->
@@ -94,11 +107,11 @@
                   </td>
 
                   <td style="padding: 2.5%; width: 37%; max-width: 37%">
-                    <a href="images/javieryu.jpg"
+                    <a href="assets/images/javieryu.jpg"
                       ><img
                         style="width: 100%; max-width: 100%; object-fit: cover"
                         alt="profile photo"
-                        src="images/javieryu_circle.png"
+                        src="assets/images/javieryu_circle.png"
                         class="hoverZoomLink"
                     /></a>
                   </td>
@@ -126,6 +139,62 @@
               </tbody>
             </table>
 
+            <!-- HAMMER -->
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 16px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two">
+                        <video width="100%" height="100%" muted autoplay loop>
+                          <source
+                            src="assets/videos/hammer_crop.mp4"
+                            type="video/mp4"
+                          />
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
+                    </div>
+                  </td>
+                  <td style="padding: 8px; width: 80%; vertical-align: middle">
+                    <a href="https://hammer-project.github.io/">
+                      <span class="papertitle"
+                        >HAMMER: Heterogeneous, Multi-Robot Semantic Gaussian
+                        Splatting</span
+                      >
+                    </a>
+                    <br />
+                    <strong>Javier Yu</strong>, Timothy Chen, Mac Schwager
+                    <br />
+                    <em>RA-L</em>, 2025 (submitted)
+                    <br />
+                    <a href="https://hammer-project.github.io/">project page</a>
+                    /
+                    <a href="https://arxiv.org/abs/2501.14147">arXiv</a>
+                    <p>
+                      HAMMER is a collaborative 3D Gaussian Splatting framework
+                      that enables teams of heterogeneous robots to construct a
+                      shared metric-semantic map in real-time. Our maps allow
+                      the collaborating robots to develop a comprehensive
+                      spatial representation with coverage from the full robot
+                      team. HAMMER is designed with flexibility in mind to
+                      enable integration with a wide range of robots and sensing
+                      devices.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
             <!-- Sousvide -->
             <table
               style="
@@ -143,14 +212,17 @@
                     <div class="one">
                       <div class="two">
                         <video width="100%" height="100%" muted autoplay loop>
-                          <source src="images/sousvide.mp4" type="video/mp4" />
+                          <source
+                            src="assets/videos/sousvide.mp4"
+                            type="video/mp4"
+                          />
                           Your browser does not support the video tag.
                         </video>
                       </div>
                     </div>
                   </td>
                   <td style="padding: 8px; width: 80%; vertical-align: middle">
-                    <a href="https://chengine.github.io/safer-splat/">
+                    <a href="https://stanfordmsl.github.io/SousVide/">
                       <span class="papertitle"
                         >SOUS VIDE: Cooking Visual Drone Navigation Policies in
                         a Gaussian Splatting Vacuum</span
@@ -160,9 +232,11 @@
                     JunEn Low, Maximilian Adang, <strong>Javier Yu</strong>,
                     Keiko Nagami, Mac Schwager
                     <br />
-                    <em>RA-L</em>, 2024
+                    <em>RA-L</em>, 2025 (submitted)
                     <br />
-                    <a href="https://github.com/">project page ?</a>
+                    <a href="https://stanfordmsl.github.io/SousVide/"
+                      >project page</a
+                    >
                     /
                     <a href="https://www.arxiv.org/abs/2412.16346/">arXiv</a>
                     <p>
@@ -194,7 +268,10 @@
                     <div class="one">
                       <div class="two" id="safer_image">
                         <video width="100%" height="100%" muted autoplay loop>
-                          <source src="images/safer.mp4" type="video/mp4" />
+                          <source
+                            src="assets/videos/safer.mp4"
+                            type="video/mp4"
+                          />
                           Your browser does not support the video tag.
                         </video>
                       </div>
@@ -211,7 +288,7 @@
                     Timothy Chen*, Aiden Swann*, <strong>Javier Yu*</strong>,
                     Ola Shorinwa, Riku Murai, Monroe Kennedy III, Mac Schwager
                     <br />
-                    <em>arXiv</em>, 2024
+                    <em>ICRA</em>, 2025
                     <br />
                     <a href="https://chengine.github.io/safer-splat/"
                       >project page</a
@@ -250,7 +327,10 @@
                     <div class="one">
                       <div class="two">
                         <video width="100%" height="100%" muted autoplay loop>
-                          <source src="images/splatnav.mp4" type="video/mp4" />
+                          <source
+                            src="assets/videos/splatnav.mp4"
+                            type="video/mp4"
+                          />
                           Your browser does not support the video tag.
                         </video>
                       </div>
@@ -304,7 +384,7 @@
                       <div class="two">
                         <video width="100%" height="100%" muted autoplay loop>
                           <source
-                            src="images/nerfbridge.mp4"
+                            src="assets/videos/nerfbridge.mp4"
                             type="video/mp4"
                           />
                           Your browser does not support the video tag.
@@ -363,7 +443,7 @@
                       <div class="two">
                         <video width="100%" height="100%" muted autoplay loop>
                           <source
-                            src="images/dinno_maps.mp4"
+                            src="assets/videos/dinno_maps.mp4"
                             type="video/mp4"
                           />
                           Your browser does not support the video tag.
@@ -419,7 +499,10 @@
                     <div class="one">
                       <div class="two">
                         <video width="100%" height="100%" muted autoplay loop>
-                          <source src="images/dopt.mp4" type="video/mp4" />
+                          <source
+                            src="assets/videos/dopt.mp4"
+                            type="video/mp4"
+                          />
                           Your browser does not support the video tag.
                         </video>
                       </div>
@@ -482,7 +565,10 @@
                     <div class="one">
                       <div class="two">
                         <video width="100%" height="100%" muted autoplay loop>
-                          <source src="images/drwt.mp4" type="video/mp4" />
+                          <source
+                            src="assets/videos/drwt.mp4"
+                            type="video/mp4"
+                          />
                           Your browser does not support the video tag.
                         </video>
                       </div>
@@ -543,7 +629,7 @@
                   <td style="padding: 16px; width: 25%; vertical-align: middle">
                     <div class="one">
                       <div class="two">
-                        <img width="100%" src="images/decmcts.png" />
+                        <img width="100%" src="assets/images/decmcts.png" />
                       </div>
                     </div>
                   </td>
