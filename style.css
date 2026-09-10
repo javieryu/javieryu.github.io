@@ -105,3 +105,59 @@ span.highlight {
   display: inline-block;
   border-radius: 10px;
 }
+
+/* Mobile: stack the two-column table layouts. The cells carry inline
+   widths, so the overrides need !important. Nothing here applies above
+   640px. */
+@media (max-width: 640px) {
+  body {
+    margin: 0;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  body.landing {
+    display: block;
+    min-height: 0;
+  }
+
+  td {
+    display: block;
+    width: auto !important;
+    max-width: none !important;
+    box-sizing: border-box;
+  }
+
+  /* Landing page: photo centered above the bio */
+  img.hoverZoomLink {
+    display: block;
+    width: 55% !important;
+    margin: 8px auto 0;
+  }
+
+  /* Research page: thumbnail above each entry, flush with the text */
+  td:has(> .one) {
+    padding: 16px 8px 4px !important;
+  }
+
+  .one,
+  .two {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    margin: 0;
+  }
+
+  .two {
+    position: static;
+  }
+
+  .two img,
+  .two video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
