@@ -69,6 +69,10 @@ h2 {
   font-size: 32px;
 }
 
+.name a {
+  font-size: inherit;
+}
+
 .one {
   width: 192px;
   height: 108px;
