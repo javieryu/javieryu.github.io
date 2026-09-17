@@ -106,6 +106,55 @@ span.highlight {
   border-radius: 10px;
 }
 
+/* Recent arXiv preprints on the landing page (rendered by js/arxiv.js) */
+.arxiv-intro {
+  margin: 8px 0 6px;
+  padding-top: 16px;
+  border-top: 1px solid var(--highlight);
+  font-weight: 500;
+}
+
+.arxiv-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.arxiv-entry {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75em;
+  margin: 4px 0;
+  line-height: 1.4;
+}
+
+.arxiv-year {
+  flex: none;
+  color: #6b7280;
+  font-variant-numeric: tabular-nums;
+}
+
+.arxiv-title {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.arxiv-pdf {
+  flex: none;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.arxiv-pdf:hover {
+  color: var(--link-hover);
+}
+
+.arxiv-more {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
 /* Mobile: stack the two-column table layouts. The cells carry inline
    widths, so the overrides need !important. Nothing here applies above
    640px. */
